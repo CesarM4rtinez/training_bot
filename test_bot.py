@@ -25,10 +25,10 @@ else:
 
 # Test 2: Obtener precios
 print("\n2️⃣ Verificando obtención de precios...")
-data = get_prices("BTCUSD", cst=cst, x_token=x_token)
+data = get_prices("GOLD", cst=cst, x_token=x_token)
 if data and "prices" in data:
     num_precios = len(data["prices"])
-    print(f"   ✅ Recibidos {num_precios} precios de BTCUSD")
+    print(f"   ✅ Recibidos {num_precios} precios de GOLD")
 else:
     print("   ❌ No se pudieron obtener precios")
     sys.exit(1)

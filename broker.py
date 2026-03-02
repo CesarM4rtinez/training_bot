@@ -125,7 +125,7 @@ def get_account_balance(cst=None, x_token=None, account_name=None):
                 return data[key]
     return None
 
-def get_prices(epic="BTCUSD", resolution="MINUTE", num_points=100, cst=None, x_token=None):
+def get_prices(epic="GOLD", resolution="MINUTE", num_points=100, cst=None, x_token=None):
     url = f"{BASE_URL}/api/v1/prices/{epic}?resolution={resolution}&max={num_points}"
     headers = {
         "X-CAP-API-KEY": API_KEY,

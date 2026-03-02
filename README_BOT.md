@@ -54,7 +54,7 @@ python main.py
 
 ### Opción 2: Múltiples Activos
 ```bash
-python main.py BTCUSD ETHUSD SILVER Gold
+python main.py BTCUSD ETHUSD GOLD GOLD
 ```
 
 ### Opción 3: Un Activo Específico
