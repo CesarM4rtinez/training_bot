@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "2026-03-05T05:18:42.415847+00:00Z",
+  "epic": "ETHUSD",
+  "timeframe": "MINUTE",
+  "num_prices": 100,
+  "first_snapshot": "2026-03-05T03:39:00",
+  "last_snapshot": "2026-03-05T05:18:00",
+  "indicators": {
+    "EMA_10": 2135.7164863249163,
+    "EMA_55": 2133.66236571995,
+    "ADX": 15.582454353184731,
+    "squeeze": -0.3501477911033175
+  },
+  "last_price": 2134.225,
+  "open_last": 2134.675,
+  "high_last": 2134.675,
+  "low_last": 2134.185,
+  "volume_last": 48,
+  "signal_entry": false,
+  "signal_exit": true,
+  "planned_order": null,
+  "position": null,
+  "account_balance": 5.37
+}

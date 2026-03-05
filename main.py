@@ -18,7 +18,7 @@ def run_bot(epics=None, riesgo_pct=0.01, account_name="Analista l"):
     - `account_name` es un campo informativo (tu cuenta "Analista l").
     """
     if epics is None:
-        epics = ["GOLD"]
+        epics = ["ETHUSD"]
     elif isinstance(epics, str):
         epics = [epics]
 
